@@ -1,38 +1,27 @@
-# Angular build output
+# Angular cache
+.angular/
+
+# Build output
 dist/
-browser/
-server/
-
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-.vscode/
-
-# System files
-.DS_Store
-Thumbs.db
+tmp/
+out-tsc/
 
 # Node
 node_modules/
 npm-debug.log
 yarn-error.log
-package-lock.json
-.pnpm-debug.log
+pnpm-debug.log
 
-# Compiled output
-*.js
-*.js.map
-*.d.ts
+# Logs
+*.log
 
-# Environment
-.env
-.env.local
-.env.*.local
+# OS
+.DS_Store
+Thumbs.db
 
-# Misc
-.sass-cache/
-coverage/
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+

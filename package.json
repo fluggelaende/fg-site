@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --configuration production --base-href=/",
+    "deploy": "npm run build:prod && npx angular-cli-ghpages --dir=dist/fg-site/browser --cname=fluggelaende.ch",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
